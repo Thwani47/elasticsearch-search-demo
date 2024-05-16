@@ -14,6 +14,7 @@ Run the code
 > python3 -m venv venv # create a virtual environment
 > source venv/bin/activate
 > pip install -r requirements.txt
+> flask reindex # to load the data into elasticsearch
 > flask run
 > # open the browser and navigate to `http://localhost:5001` to access the search page
 ```
