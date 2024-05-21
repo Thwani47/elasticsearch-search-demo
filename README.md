@@ -3,7 +3,7 @@ Code solution to the Elasticsearch search [tutorial](https://www.elastic.co/sear
 
 
 ## How to run the code
-Run a single-node elasticsearch cluster and kibana using docker
+Run a single-node elasticsearch cluster using docker
 ```bash
 > docker run --name elasticsearch01 --net elastic -p 9200:9200 -e "discovery.type=single-node" -e "xpack.security.enabled=false" -e "xpack.security.http.ssl.enabled=false" -t docker.elastic.co/elasticsearch/elasticsearch:8.13.4
 ```
